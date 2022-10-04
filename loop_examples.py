@@ -20,3 +20,13 @@ for i in range( len(centers) ):
 #for w,c in zip(weights, centers):
 #    print(w, c)
     
+
+#for j in range(1,4):
+ #   sum(i)
+#    print
+
+S=0
+for j in range( len(weights) ):
+    S=S + (weights[j])
+    
+print(S)
