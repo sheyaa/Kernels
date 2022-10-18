@@ -30,3 +30,18 @@ for j in range( len(weights) ):
     S=S + (weights[j])
     
 print(S)
+
+
+###############################################
+from numpy import linalg as LA
+
+x = [
+     np.array([1,1]),
+     np.array([0,2]),
+     np.array([2,0]),
+     np.array([2,1])]
+
+for i in range(len(centers)):
+    for k in range(len(x)):
+        D = LA.norm (x[0] - centers[i])
+print("D =", D)
